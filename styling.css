@@ -1,0 +1,60 @@
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.gradient {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg,#982BFF,#5934F9,#1398AB,#E1EAFD);
+}
+.explore {
+    font-size: 60px;
+    font-family: "Reddit Sans", sans-serif;
+    font-style: oblique;
+    
+}
+.create {
+    font-size: 22px;
+    font-family: "Reddit Sans", sans-serif;
+     background: linear-gradient(red ,blue);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+    .create::first-letter{
+       color: black;
+       font-size: 60px;
+    }
+    .lorem {
+        line-height: 20px;
+    }
+    .box {
+           width: 300px;
+           height: 300px;
+           margin: auto;
+           background-color: black;
+           border-radius: 10px;
+           box-shadow: 50px 50px 150px 80px rgb(128, 128, 128,0.5);
+           margin: 40px auto;
+    }
+    .text {
+        font-size: 40px;
+        text-shadow: 5px 10px 10px grey;
+        margin-bottom: 150px;
+    }
+    .logo {
+        width: 150px;
+        height: 100px;
+        background-color: grey;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .tools {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
