@@ -23,7 +23,7 @@ body {
 }
     .create::first-letter{
        color: black;
-       font-size: 60px;
+       font-size: 30px;
     }
     .lorem {
         line-height: 20px;
